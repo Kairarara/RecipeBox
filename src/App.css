@@ -1,0 +1,166 @@
+.App{
+  display:flex;
+  width:100%;
+  height:100%;
+  color:#751700;
+}
+
+.left{
+  background:#500;
+  height:100%;
+  width:18%;
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+}
+
+.indexBox{
+  height:90%;
+  width:100%;
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  background:#333;
+}
+
+.searchBar{
+  height:5%;
+  width:98%;
+  background:#c50;
+  border:none;
+  margin:1% 0;
+  font-size:2.5vh;
+  text-align:center;
+  color:#fff;
+}
+
+.index{
+  height:100%;
+  width:100%;
+  background:#f80;
+}
+
+.index ul{
+  list-style-type:none;
+  height:95%;
+  margin:0;
+  padding:0;
+}
+
+.index li{
+  height:7%;
+  width:90%;
+  margin:1%;
+  padding:0 4%;
+  display: flex;
+  align-items: center;
+  justify-content:center;
+}
+
+.unfocused{
+  background:#ffd29e;
+}
+
+.focused{
+  background:#fff0de;
+}
+
+.indexEle{
+  font-size:2.5vh;
+  overflow:hidden;
+  white-space:nowrap;
+}
+
+.tools{
+  height:10%;
+  width:100%;
+  background:#c50;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+}
+
+.tools button{
+  width:33%;
+  height:100%;
+  background:#c50;
+  border:none;
+  color:white;
+}
+
+.tools button:active{
+  background:#d60;
+}
+
+.recipeBox{
+  display:flex;
+  width:82%;
+  flex-direction:column;
+  align-items:center;
+  justify-contente:end;
+  height:100%;
+}
+
+.recipeHeader{
+  width:100%;
+  height:12%;
+  background:#751700;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+}
+
+.recipeName{
+  color:white;
+  font-size:6vh;
+}
+
+input.recipeName{
+  color:black;
+}
+
+.recipe{
+  background:#fff0de;
+  height:100%;
+  font-size:2.2vh;
+}
+
+.ing, .step{
+  display:flex;
+  align-items:flex-end;
+}
+
+.ing p, .step p{
+  width:90%;
+  margin-right:auto;
+}
+
+.recipe button{
+  float:right;
+  margin-right:5%;
+  height:8vh;
+  width:8vh;
+  font-size:2.5vh;
+  background:#f80;
+  border:none;
+  border-radius:8%;
+}
+
+.recipe button:active{
+  background:#ffd29e;
+}
+
+.add{
+  display: block;
+  margin-left: auto;
+}
+
+.ingredients, .directions{
+  margin:3%;
+}
+
+.ingredients textarea, .directions textarea{
+  width:100%;
+  height:24vh;
+  resize: none;
+}
